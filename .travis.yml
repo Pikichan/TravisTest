@@ -1,4 +1,4 @@
 language: objective-c #projectで使用している言語
 xcode_project: TravisTest.xcodeproj #project名
 xcode_scheme: TravisTest #何もいじってなければproject名と一緒
-xcode_destination: platform=iOS Simulator,OS=14.5,name=iPhone X #テストを走らせたいシミュレータを指定
+xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch) #テストを走らせたいシミュレータを指定
